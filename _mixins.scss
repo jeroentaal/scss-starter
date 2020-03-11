@@ -1,0 +1,84 @@
+// --- Breakpoints ---
+
+@mixin bp($breakpoint) {
+  @if $breakpoint == max-xxxl {
+    @media screen and (max-width: $screen-xxxl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-xxl {
+    @media screen and (max-width: $screen-xxl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-xl {
+    @media screen and (max-width: $screen-xl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-lg {
+    @media screen and (max-width: $screen-lg) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-md {
+    @media screen and (max-width: $screen-md) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-sm {
+    @media screen and (max-width: $screen-sm) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-xs {
+    @media screen and (max-width: $screen-xs) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-xxxl {
+    @media screen and (min-width: $screen-xxxl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-xxl {
+    @media screen and (min-width: $screen-xxl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-xl {
+    @media screen and (min-width: $screen-xl) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-lg {
+    @media screen and (min-width: $screen-lg) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-md {
+    @media screen and (min-width: $screen-md) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-sm {
+    @media screen and (min-width: $screen-sm) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-xs {
+    @media screen and (min-width: $screen-xs) {
+      @content;
+    }
+  }
+}
+
+// --- Input placeholder ---
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}
+}
+
