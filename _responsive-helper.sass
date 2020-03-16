@@ -1,0 +1,50 @@
+@import "global-variables"
+
+html
+  &:after
+    content: 'full'
+    padding: $space-sm
+    text-transform: uppercase
+    background-color: black
+    color: white
+    position: fixed
+    left: 0
+    bottom: 0
+    font-weight: 600
+    z-index: 9999
+    opacity: .25
+
+@media (max-width: $screen-xl)
+  html
+    &:after
+      content: 'xl'
+
+@media (max-width: $screen-lg)
+  html
+    &:after
+      content: 'lg'
+
+@media (max-width: $screen-md)
+  html
+    &:after
+      content: 'md'
+
+@media (max-width: $screen-sm)
+  html
+    &:after
+      content: 'sm'
+
+@media (max-width: $screen-xs)
+  html
+    &:after
+      content: 'xs'
+
+@media (max-width: $screen-xxs)
+  html
+    &:after
+      content: 'xxs'
+
+@media (max-width: $screen-xxxs)
+  html
+    &:after
+      content: 'xxxs'
