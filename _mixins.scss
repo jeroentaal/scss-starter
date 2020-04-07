@@ -4,42 +4,42 @@
 
 @mixin bp($breakpoint) {
   @if $breakpoint == max-xxl {
-    @media screen and (max-width: $screen-xxl) {
+    @media screen and (max-width: $screen-xxl - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-xl {
-    @media screen and (max-width: $screen-xl) {
+    @media screen and (max-width: $screen-xl - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-lg {
-    @media screen and (max-width: $screen-lg) {
+    @media screen and (max-width: $screen-lg - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-md {
-    @media screen and (max-width: $screen-md) {
+    @media screen and (max-width: $screen-md - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-sm {
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-sm - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-xs {
-    @media screen and (max-width: $screen-xs) {
+    @media screen and (max-width: $screen-xs - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-xxs {
-    @media screen and (max-width: $screen-xxs) {
+    @media screen and (max-width: $screen-xxs - 1) {
       @content;
     }
   }
   @else if $breakpoint == max-xxxs {
-    @media screen and (max-width: $screen-xxxs) {
+    @media screen and (max-width: $screen-xxxs - 1) {
       @content;
     }
   }
