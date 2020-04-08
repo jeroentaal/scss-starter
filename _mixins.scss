@@ -3,7 +3,12 @@
 // --- Breakpoints ---
 
 @mixin bp($breakpoint) {
-  @if $breakpoint == max-xxl {
+  @if $breakpoint == max-xxxl {
+    @media screen and (max-width: $screen-xxxl - 1) {
+      @content;
+    }
+  }
+  @else if $breakpoint == max-xxl {
     @media screen and (max-width: $screen-xxl - 1) {
       @content;
     }
@@ -40,6 +45,11 @@
   }
   @else if $breakpoint == max-xxxs {
     @media screen and (max-width: $screen-xxxs - 1) {
+      @content;
+    }
+  }
+  @else if $breakpoint == min-xxxl {
+    @media screen and (min-width: $screen-xxxl + 1) {
       @content;
     }
   }
