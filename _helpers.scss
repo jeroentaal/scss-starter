@@ -1,5 +1,11 @@
 @import "global-variables";
 
+// --- Colors ---
+
+.text-color {
+  color: $text-color !important;
+}
+
 // --- Width / 12 grid ---
 
 .w-1 {
