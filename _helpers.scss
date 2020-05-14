@@ -56,6 +56,40 @@
   width: 100%;
 }
 
+// --- Max widths ---
+
+.mw-xxxs {
+  max-width: $screen-xxxs;
+}
+
+.mw-xxs {
+  max-width: $screen-xxs;
+}
+
+.mw-xs {
+  max-width: $screen-xs;
+}
+
+.mw-sm {
+  max-width: $screen-sm;
+}
+
+.mw-md {
+  max-width: $screen-md;
+}
+
+.mw-lg {
+  max-width: $screen-lg;
+}
+
+.mw-xl {
+  max-width: $screen-xl;
+}
+
+.mw-xxl {
+  max-width: $screen-xxl;
+}
+
 // --- Opacity ---
 
 .o1 {
