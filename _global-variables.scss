@@ -1,20 +1,26 @@
 // Colors
-$text-color:                        #333;
+$text-color:                        #333 !default;
+
+// Font
+$font-size-base:                    1rem !default;
+
+// Columns
+$grid-columns:                      12 !default;
 
 // Spaces
-$space-xs:                          0.4rem;
-$space-sm:                          0.8rem;
-$space-md:                          1.6rem;
-$space-lg:                          3.2rem;
-$space-xl:                          6.4rem;
+$space-xs:                          0.4rem !default;
+$space-sm:                          0.8rem !default;
+$space-md:                          1.6rem !default;
+$space-lg:                          3.2rem !default;
+$space-xl:                          6.4rem !default;
 
 // Container widths
-$screen-xxxl:                       1600px;
-$screen-xxl:                        1440px;
-$screen-xl:                         1280px;
-$screen-lg:                         1024px;
-$screen-md:                         768px;
-$screen-sm:                         480px;
-$screen-xs:                         414px;
-$screen-xxs:                        375px;
-$screen-xxxs:                       320px;
+$screen-xxxl:                       1600px !default;
+$screen-xxl:                        1440px !default;
+$screen-xl:                         1280px !default;
+$screen-lg:                         1024px !default;
+$screen-md:                         768px !default;
+$screen-sm:                         480px !default;
+$screen-xs:                         414px !default;
+$screen-xxs:                        375px !default;
+$screen-xxxs:                       320px !default;
