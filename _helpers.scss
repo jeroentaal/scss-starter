@@ -53,11 +53,15 @@ $screens:
 }
 
 .fs-lg {
-  font-size: $font-size-base * 1.1 !important;
+  font-size: $font-size-base * 1.2 !important;
 }
 
 .fs-xl {
-  font-size: $font-size-base * 1.2 !important;
+  font-size: $font-size-base * 1.4 !important;
+}
+
+.fs-xxl {
+  font-size: $font-size-base * 1.8 !important;
 }
 
 // --- Width / 12 grid ---
