@@ -114,6 +114,12 @@ $screens:
   width: 100%;
 }
 
+// --- Min widths ---
+
+.mw-0 {
+  min-width: 0 !important;
+}
+
 // --- Max widths ---
 
 @each $name, $size in $screens {
