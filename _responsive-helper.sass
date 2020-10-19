@@ -2,59 +2,61 @@
 
 html
   &:after
-    content: 'full'
-    padding: $space-sm
-    text-transform: uppercase
+    content: 'FULL'
+    font-size: 10px
+    font-family: system-ui, sans-serif
+    padding: $space-xs $space-sm
     background-color: black
     color: white
     position: fixed
     left: 0
     bottom: 0
-    font-weight: 600
-    z-index: 9999
-    opacity: .25
+    font-weight: 500
+    letter-spacing: .025rem
+    z-index: 2147483647
+    opacity: .5
 
 @media (max-width: $screen-xxxl)
   html
     &:after
-      content: 'xxxl'
+      content: 'XXXL - 1600 - Desktop - Large'
 
 @media (max-width: $screen-xxl)
   html
     &:after
-      content: 'xxl'
+      content: 'XXL - 1440 - Desktop'
 
 @media (max-width: $screen-xl)
   html
     &:after
-      content: 'xl'
+      content: 'XL - 1240 - Laptop'
 
 @media (max-width: $screen-lg)
   html
     &:after
-      content: 'lg'
+      content: 'LG - 1024 - Tablet - Landscape'
 
 @media (max-width: $screen-md)
   html
     &:after
-      content: 'md'
+      content: 'MD - 768 - Tablet - Portrait'
 
 @media (max-width: $screen-sm)
   html
     &:after
-      content: 'sm'
+      content: 'SM - 480 - Mobile - Plus'
 
 @media (max-width: $screen-xs)
   html
     &:after
-      content: 'xs'
+      content: 'XS - 414 - Mobile - Plus'
 
 @media (max-width: $screen-xxs)
   html
     &:after
-      content: 'xxs'
+      content: 'XXS - 375 - Mobile - Plus'
 
 @media (max-width: $screen-xxxs)
   html
     &:after
-      content: 'xxxs'
+      content: 'XXXS - 320 - Mobile - Small'

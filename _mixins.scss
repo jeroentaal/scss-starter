@@ -4,82 +4,82 @@
 
 @mixin bp($breakpoint) {
   @if $breakpoint == max-xxl {
-    @media screen and (max-width: $screen-xxl - 1) {
+    @media screen and (max-width: $screen-xxl) {
       @content;
     }
   }
   @else if $breakpoint == max-xl {
-    @media screen and (max-width: $screen-xl - 1) {
+    @media screen and (max-width: $screen-xl) {
       @content;
     }
   }
   @else if $breakpoint == max-lg {
-    @media screen and (max-width: $screen-lg - 1) {
+    @media screen and (max-width: $screen-lg) {
       @content;
     }
   }
   @else if $breakpoint == max-md {
-    @media screen and (max-width: $screen-md - 1) {
+    @media screen and (max-width: $screen-md) {
       @content;
     }
   }
   @else if $breakpoint == max-sm {
-    @media screen and (max-width: $screen-sm - 1) {
+    @media screen and (max-width: $screen-sm) {
       @content;
     }
   }
   @else if $breakpoint == max-xs {
-    @media screen and (max-width: $screen-xs - 1) {
+    @media screen and (max-width: $screen-xs) {
       @content;
     }
   }
   @else if $breakpoint == max-xxs {
-    @media screen and (max-width: $screen-xxs - 1) {
+    @media screen and (max-width: $screen-xxs) {
       @content;
     }
   }
   @else if $breakpoint == max-xxxs {
-    @media screen and (max-width: $screen-xxxs - 1) {
+    @media screen and (max-width: $screen-xxxs) {
       @content;
     }
   }
   @else if $breakpoint == min-xxl {
-    @media screen and (min-width: $screen-xxl - 1) {
+    @media screen and (min-width: $screen-xxl + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-xl {
-    @media screen and (min-width: $screen-xl - 1) {
+    @media screen and (min-width: $screen-xl + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-lg {
-    @media screen and (min-width: $screen-lg - 1) {
+    @media screen and (min-width: $screen-lg + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-md {
-    @media screen and (min-width: $screen-md - 1) {
+    @media screen and (min-width: $screen-md + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-sm {
-    @media screen and (min-width: $screen-sm - 1) {
+    @media screen and (min-width: $screen-sm + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-xs {
-    @media screen and (min-width: $screen-xs - 1) {
+    @media screen and (min-width: $screen-xs + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-xxs {
-    @media screen and (min-width: $screen-xxs - 1) {
+    @media screen and (min-width: $screen-xxs + .5) {
       @content;
     }
   }
   @else if $breakpoint == min-xxxs {
-    @media screen and (min-width: $screen-xxxs - 1) {
+    @media screen and (min-width: $screen-xxxs + .5) {
       @content;
     }
   }
