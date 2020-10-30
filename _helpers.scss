@@ -276,8 +276,22 @@ $screens:
   padding: 0 !important;
 }
 
-// Flexbox
+// --- Flexbox ---
 
 .flex-1 {
   flex: 1;
+}
+
+// --- No scroll ---
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+.no-scroll-x {
+  overflow-x: hidden !important;
+}
+
+.no-scroll-y {
+  overflow-y: hidden !important;
 }
